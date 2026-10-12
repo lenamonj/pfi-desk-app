@@ -1,0 +1,807 @@
+{
+ "as_of": "2026-10-02",
+ "mode": "replay",
+ "brief": {
+  "macro": {
+   "text": "The FOMC post-meeting statement of 2026-09-16 contains 6 sentences that are not in the statement of 2026-07-29. Conversely, the statement of 2026-07-29 contains 7 sentences that are not in the statement of 2026-09-16. Between the FOMC statements dated 2026-07-29 and 2026-09-16, the 2 Yr Treasury par yield increased by 52 basis points and the 10 Yr Treasury par yield increased by 34 basis points. Since the last statement on 2026-09-16 to 2026-10-02, the 2 Yr Treasury par yield increased by 9 basis points and the 10 Yr Treasury par yield increased by 27 basis points.",
+   "figures": [
+    {
+     "name": "Sentences in 2026-09-16 not in 2026-07-29",
+     "value": 6.0,
+     "unit": "count",
+     "tool_call_id": "call_N2qoKDbkCEcg9cIPj0WkfJ6h"
+    },
+    {
+     "name": "Sentences in 2026-07-29 not in 2026-09-16",
+     "value": 7.0,
+     "unit": "count",
+     "tool_call_id": "call_N2qoKDbkCEcg9cIPj0WkfJ6h"
+    },
+    {
+     "name": "2 Yr Treasury par yield change from 2026-07-29 to 2026-09-16",
+     "value": 52.0,
+     "unit": "bp",
+     "tool_call_id": "call_pgI40G2xBgcnU3FI3tTG0bfy"
+    },
+    {
+     "name": "10 Yr Treasury par yield change from 2026-07-29 to 2026-09-16",
+     "value": 34.0,
+     "unit": "bp",
+     "tool_call_id": "call_WNtumrsWaQuqHZMgKR8U5gcp"
+    },
+    {
+     "name": "2 Yr Treasury par yield change from 2026-09-16 to 2026-10-02",
+     "value": 9.0,
+     "unit": "bp",
+     "tool_call_id": "call_DKm7f3n1iq8ev3SOXbpgKXiZ"
+    },
+    {
+     "name": "10 Yr Treasury par yield change from 2026-09-16 to 2026-10-02",
+     "value": 27.0,
+     "unit": "bp",
+     "tool_call_id": "call_t09IYnwma8OYh16aZBsRF66I"
+    }
+   ],
+   "sources": [
+    "2026-07-29",
+    "2026-09-16",
+    "2026-10-02"
+   ]
+  },
+  "documents": {
+   "text": "The covenant terms of the lamar_2007 indenture include the following confirmed and not confirmed values: The Company's Leverage Ratio must be less than 7.0 to 1 (Section 4.10, confirmed). For restricted payments, immediately after giving effect to such Restricted Payment, the aggregate of all Restricted Payments declared or made after the Existing Notes Issue Date does not exceed the sum of 100% of the Company's Cumulative EBITDA minus 1.4 times the Company's Cumulative Consolidated Interest Expense (Section 4.11, not confirmed). Also in Section 4.11, 100% of the aggregate Net Proceeds and the fair market value of securities or other property received by the Company after January 1, 2001, from certain specified sources is noted (not confirmed). The Asset Sale threshold is $10 million (Section 1.01, not confirmed). If on the Reinvestment Date with respect to any Asset Sale, the Available Asset Sale Proceeds exceed $25 million, the Company shall apply an amount equal to such Available Asset Sale Proceeds to an offer to repurchase the Notes (Section 4.13, confirmed). The Change of Control Purchase Price is 101% of the principal amount plus accrued and unpaid interest (Section 4.19, not confirmed). For Affiliate Transactions, amounts in excess of $5 million require a Board Resolution (Section 4.14, confirmed), and amounts in excess of $20 million require a written opinion from an independent investment banking firm (Section 4.14, confirmed).\n\nFrom Item 2.03 of the Form 8-K with accession 0001193125-25-064058, the principal amount stated is $500 million, the interest rate is 6.700%, and the maturity year is 2055.",
+   "figures": [
+    {
+     "name": "Leverage Ratio threshold",
+     "value": 7.0,
+     "unit": "ratio_x",
+     "tool_call_id": "call_b0uxc2GpmASEplfN7PrBlLd8",
+     "section": "4.10",
+     "status": "confirmed"
+    },
+    {
+     "name": "Restricted Payments ratio threshold",
+     "value": 1.4,
+     "unit": "ratio_x",
+     "tool_call_id": "call_b0uxc2GpmASEplfN7PrBlLd8",
+     "section": "4.11",
+     "status": "not confirmed"
+    },
+    {
+     "name": "Restricted Payments Cumulative EBITDA percent",
+     "value": 100.0,
+     "unit": "pct",
+     "tool_call_id": "call_b0uxc2GpmASEplfN7PrBlLd8",
+     "section": "4.11",
+     "status": "not confirmed"
+    },
+    {
+     "name": "Restricted Payments Net Proceeds percent",
+     "value": 100.0,
+     "unit": "pct",
+     "tool_call_id": "call_b0uxc2GpmASEplfN7PrBlLd8",
+     "section": "4.11",
+     "status": "not confirmed"
+    },
+    {
+     "name": "Asset Sale threshold",
+     "value": 10000000.0,
+     "unit": "usd",
+     "tool_call_id": "call_b0uxc2GpmASEplfN7PrBlLd8",
+     "section": "1.01",
+     "status": "not confirmed"
+    },
+    {
+     "name": "Excess Proceeds Offer threshold",
+     "value": 25000000.0,
+     "unit": "usd",
+     "tool_call_id": "call_b0uxc2GpmASEplfN7PrBlLd8",
+     "section": "4.13",
+     "status": "confirmed"
+    },
+    {
+     "name": "Change of Control Purchase Price",
+     "value": 101.0,
+     "unit": "usd",
+     "tool_call_id": "call_b0uxc2GpmASEplfN7PrBlLd8",
+     "section": "4.19",
+     "status": "not confirmed"
+    },
+    {
+     "name": "Affiliate Transactions Board Resolution threshold",
+     "value": 5000000.0,
+     "unit": "usd",
+     "tool_call_id": "call_b0uxc2GpmASEplfN7PrBlLd8",
+     "section": "4.14",
+     "status": "confirmed"
+    },
+    {
+     "name": "Affiliate Transactions written opinion threshold",
+     "value": 20000000.0,
+     "unit": "usd",
+     "tool_call_id": "call_b0uxc2GpmASEplfN7PrBlLd8",
+     "section": "4.14",
+     "status": "confirmed"
+    }
+   ],
+   "sources": [
+    "lamar_2007",
+    "0001193125-25-064058"
+   ]
+  },
+  "portfolio": {
+   "text": "The position DV01 in dollars of the synthetic holdings file as of 2026-09-30 is $306,996.49, and the DTS is 1064.114013 years. The position DV01 in dollars and the DTS contribution for each sector are as follows: Financials $42,434.46 with DTS contribution 139.861474, Transportation $39,970.35 with DTS contribution 90.932744, Consumer $39,489.68 with DTS contribution 161.040027, Materials $37,739.56 with DTS contribution 126.173479, Industrials $35,177.99 with DTS contribution 167.765215, Telecom $34,384.48 with DTS contribution 124.05472, Energy $23,542.60 with DTS contribution 81.104019, Health Care $19,942.43 with DTS contribution 50.517977, Utilities $17,742.37 with DTS contribution 68.941793, and Technology $16,572.58 with DTS contribution 53.722565. The synthetic desk memo's position DV01 of $306,996.49 per basis point equals the position DV01 from the portfolio totals tool.",
+   "figures": [
+    {
+     "name": "Position DV01 of the synthetic holdings file",
+     "value": 306996.493904,
+     "unit": "usd",
+     "tool_call_id": "call_jytvj70VKxNldwPMyl23ZFlf"
+    },
+    {
+     "name": "DTS of the synthetic holdings file",
+     "value": 1064.114013,
+     "unit": "years_bp",
+     "tool_call_id": "call_jytvj70VKxNldwPMyl23ZFlf"
+    },
+    {
+     "name": "Position DV01 of Financials sector",
+     "value": 42434.459291,
+     "unit": "usd",
+     "tool_call_id": "call_0fJUEF9wl9DBstq3Cifatejt"
+    },
+    {
+     "name": "Position DV01 of Transportation sector",
+     "value": 39970.345165,
+     "unit": "usd",
+     "tool_call_id": "call_0fJUEF9wl9DBstq3Cifatejt"
+    },
+    {
+     "name": "Position DV01 of Consumer sector",
+     "value": 39489.681427,
+     "unit": "usd",
+     "tool_call_id": "call_0fJUEF9wl9DBstq3Cifatejt"
+    },
+    {
+     "name": "Position DV01 of Materials sector",
+     "value": 37739.561437,
+     "unit": "usd",
+     "tool_call_id": "call_0fJUEF9wl9DBstq3Cifatejt"
+    },
+    {
+     "name": "Position DV01 of Industrials sector",
+     "value": 35177.991856,
+     "unit": "usd",
+     "tool_call_id": "call_0fJUEF9wl9DBstq3Cifatejt"
+    },
+    {
+     "name": "Position DV01 of Telecom sector",
+     "value": 34384.475641,
+     "unit": "usd",
+     "tool_call_id": "call_0fJUEF9wl9DBstq3Cifatejt"
+    },
+    {
+     "name": "Position DV01 of Energy sector",
+     "value": 23542.603308,
+     "unit": "usd",
+     "tool_call_id": "call_0fJUEF9wl9DBstq3Cifatejt"
+    },
+    {
+     "name": "Position DV01 of Health Care sector",
+     "value": 19942.433139,
+     "unit": "usd",
+     "tool_call_id": "call_0fJUEF9wl9DBstq3Cifatejt"
+    },
+    {
+     "name": "Position DV01 of Utilities sector",
+     "value": 17742.366415,
+     "unit": "usd",
+     "tool_call_id": "call_0fJUEF9wl9DBstq3Cifatejt"
+    },
+    {
+     "name": "Position DV01 of Technology sector",
+     "value": 16572.576225,
+     "unit": "usd",
+     "tool_call_id": "call_0fJUEF9wl9DBstq3Cifatejt"
+    },
+    {
+     "name": "DTS contribution of Industrials sector",
+     "value": 167.765215,
+     "unit": "years_bp",
+     "tool_call_id": "call_1kF5Jwqj5xuZZi7l47B1Ct50"
+    },
+    {
+     "name": "DTS contribution of Consumer sector",
+     "value": 161.040027,
+     "unit": "years_bp",
+     "tool_call_id": "call_1kF5Jwqj5xuZZi7l47B1Ct50"
+    },
+    {
+     "name": "DTS contribution of Financials sector",
+     "value": 139.861474,
+     "unit": "years_bp",
+     "tool_call_id": "call_1kF5Jwqj5xuZZi7l47B1Ct50"
+    },
+    {
+     "name": "DTS contribution of Materials sector",
+     "value": 126.173479,
+     "unit": "years_bp",
+     "tool_call_id": "call_1kF5Jwqj5xuZZi7l47B1Ct50"
+    },
+    {
+     "name": "DTS contribution of Telecom sector",
+     "value": 124.05472,
+     "unit": "years_bp",
+     "tool_call_id": "call_1kF5Jwqj5xuZZi7l47B1Ct50"
+    },
+    {
+     "name": "DTS contribution of Transportation sector",
+     "value": 90.932744,
+     "unit": "years_bp",
+     "tool_call_id": "call_1kF5Jwqj5xuZZi7l47B1Ct50"
+    },
+    {
+     "name": "DTS contribution of Energy sector",
+     "value": 81.104019,
+     "unit": "years_bp",
+     "tool_call_id": "call_1kF5Jwqj5xuZZi7l47B1Ct50"
+    },
+    {
+     "name": "DTS contribution of Utilities sector",
+     "value": 68.941793,
+     "unit": "years_bp",
+     "tool_call_id": "call_1kF5Jwqj5xuZZi7l47B1Ct50"
+    },
+    {
+     "name": "DTS contribution of Technology sector",
+     "value": 53.722565,
+     "unit": "years_bp",
+     "tool_call_id": "call_1kF5Jwqj5xuZZi7l47B1Ct50"
+    },
+    {
+     "name": "DTS contribution of Health Care sector",
+     "value": 50.517977,
+     "unit": "years_bp",
+     "tool_call_id": "call_1kF5Jwqj5xuZZi7l47B1Ct50"
+    }
+   ],
+   "sources": [
+    "call_jytvj70VKxNldwPMyl23ZFlf",
+    "call_0fJUEF9wl9DBstq3Cifatejt",
+    "call_1kF5Jwqj5xuZZi7l47B1Ct50",
+    "call_7UO7Xxjkw9x5g1cVHru7HHi2"
+   ]
+  }
+ },
+ "checks": [
+  {
+   "section": "macro",
+   "check": "figure",
+   "item": "Sentences in 2026-09-16 not in 2026-07-29",
+   "passed": true,
+   "detail": "6.0 count, call_N2qoKDbkCEcg9cIPj0WkfJ6h"
+  },
+  {
+   "section": "macro",
+   "check": "figure",
+   "item": "Sentences in 2026-07-29 not in 2026-09-16",
+   "passed": true,
+   "detail": "7.0 count, call_N2qoKDbkCEcg9cIPj0WkfJ6h"
+  },
+  {
+   "section": "macro",
+   "check": "figure",
+   "item": "2 Yr Treasury par yield change from 2026-07-29 to 2026-09-16",
+   "passed": true,
+   "detail": "52.0 bp, call_pgI40G2xBgcnU3FI3tTG0bfy"
+  },
+  {
+   "section": "macro",
+   "check": "figure",
+   "item": "10 Yr Treasury par yield change from 2026-07-29 to 2026-09-16",
+   "passed": true,
+   "detail": "34.0 bp, call_WNtumrsWaQuqHZMgKR8U5gcp"
+  },
+  {
+   "section": "macro",
+   "check": "figure",
+   "item": "2 Yr Treasury par yield change from 2026-09-16 to 2026-10-02",
+   "passed": true,
+   "detail": "9.0 bp, call_DKm7f3n1iq8ev3SOXbpgKXiZ"
+  },
+  {
+   "section": "macro",
+   "check": "figure",
+   "item": "10 Yr Treasury par yield change from 2026-09-16 to 2026-10-02",
+   "passed": true,
+   "detail": "27.0 bp, call_t09IYnwma8OYh16aZBsRF66I"
+  },
+  {
+   "section": "documents",
+   "check": "figure",
+   "item": "Leverage Ratio threshold",
+   "passed": true,
+   "detail": "7.0 ratio_x, call_b0uxc2GpmASEplfN7PrBlLd8"
+  },
+  {
+   "section": "documents",
+   "check": "figure",
+   "item": "Restricted Payments ratio threshold",
+   "passed": true,
+   "detail": "1.4 ratio_x, call_b0uxc2GpmASEplfN7PrBlLd8"
+  },
+  {
+   "section": "documents",
+   "check": "figure",
+   "item": "Restricted Payments Cumulative EBITDA percent",
+   "passed": true,
+   "detail": "100.0 pct, call_b0uxc2GpmASEplfN7PrBlLd8"
+  },
+  {
+   "section": "documents",
+   "check": "figure",
+   "item": "Restricted Payments Net Proceeds percent",
+   "passed": true,
+   "detail": "100.0 pct, call_b0uxc2GpmASEplfN7PrBlLd8"
+  },
+  {
+   "section": "documents",
+   "check": "figure",
+   "item": "Asset Sale threshold",
+   "passed": true,
+   "detail": "10,000,000.0 usd, call_b0uxc2GpmASEplfN7PrBlLd8"
+  },
+  {
+   "section": "documents",
+   "check": "figure",
+   "item": "Excess Proceeds Offer threshold",
+   "passed": true,
+   "detail": "25,000,000.0 usd, call_b0uxc2GpmASEplfN7PrBlLd8"
+  },
+  {
+   "section": "documents",
+   "check": "figure",
+   "item": "Change of Control Purchase Price",
+   "passed": true,
+   "detail": "101.0 usd, call_b0uxc2GpmASEplfN7PrBlLd8"
+  },
+  {
+   "section": "documents",
+   "check": "figure",
+   "item": "Affiliate Transactions Board Resolution threshold",
+   "passed": true,
+   "detail": "5,000,000.0 usd, call_b0uxc2GpmASEplfN7PrBlLd8"
+  },
+  {
+   "section": "documents",
+   "check": "figure",
+   "item": "Affiliate Transactions written opinion threshold",
+   "passed": true,
+   "detail": "20,000,000.0 usd, call_b0uxc2GpmASEplfN7PrBlLd8"
+  },
+  {
+   "section": "portfolio",
+   "check": "figure",
+   "item": "Position DV01 of the synthetic holdings file",
+   "passed": true,
+   "detail": "306,996.493904 usd, call_jytvj70VKxNldwPMyl23ZFlf"
+  },
+  {
+   "section": "portfolio",
+   "check": "figure",
+   "item": "DTS of the synthetic holdings file",
+   "passed": true,
+   "detail": "1,064.114013 years_bp, call_jytvj70VKxNldwPMyl23ZFlf"
+  },
+  {
+   "section": "portfolio",
+   "check": "figure",
+   "item": "Position DV01 of Financials sector",
+   "passed": true,
+   "detail": "42,434.459291 usd, call_0fJUEF9wl9DBstq3Cifatejt"
+  },
+  {
+   "section": "portfolio",
+   "check": "figure",
+   "item": "Position DV01 of Transportation sector",
+   "passed": true,
+   "detail": "39,970.345165 usd, call_0fJUEF9wl9DBstq3Cifatejt"
+  },
+  {
+   "section": "portfolio",
+   "check": "figure",
+   "item": "Position DV01 of Consumer sector",
+   "passed": true,
+   "detail": "39,489.681427 usd, call_0fJUEF9wl9DBstq3Cifatejt"
+  },
+  {
+   "section": "portfolio",
+   "check": "figure",
+   "item": "Position DV01 of Materials sector",
+   "passed": true,
+   "detail": "37,739.561437 usd, call_0fJUEF9wl9DBstq3Cifatejt"
+  },
+  {
+   "section": "portfolio",
+   "check": "figure",
+   "item": "Position DV01 of Industrials sector",
+   "passed": true,
+   "detail": "35,177.991856 usd, call_0fJUEF9wl9DBstq3Cifatejt"
+  },
+  {
+   "section": "portfolio",
+   "check": "figure",
+   "item": "Position DV01 of Telecom sector",
+   "passed": true,
+   "detail": "34,384.475641 usd, call_0fJUEF9wl9DBstq3Cifatejt"
+  },
+  {
+   "section": "portfolio",
+   "check": "figure",
+   "item": "Position DV01 of Energy sector",
+   "passed": true,
+   "detail": "23,542.603308 usd, call_0fJUEF9wl9DBstq3Cifatejt"
+  },
+  {
+   "section": "portfolio",
+   "check": "figure",
+   "item": "Position DV01 of Health Care sector",
+   "passed": true,
+   "detail": "19,942.433139 usd, call_0fJUEF9wl9DBstq3Cifatejt"
+  },
+  {
+   "section": "portfolio",
+   "check": "figure",
+   "item": "Position DV01 of Utilities sector",
+   "passed": true,
+   "detail": "17,742.366415 usd, call_0fJUEF9wl9DBstq3Cifatejt"
+  },
+  {
+   "section": "portfolio",
+   "check": "figure",
+   "item": "Position DV01 of Technology sector",
+   "passed": true,
+   "detail": "16,572.576225 usd, call_0fJUEF9wl9DBstq3Cifatejt"
+  },
+  {
+   "section": "portfolio",
+   "check": "figure",
+   "item": "DTS contribution of Industrials sector",
+   "passed": true,
+   "detail": "167.765215 years_bp, call_1kF5Jwqj5xuZZi7l47B1Ct50"
+  },
+  {
+   "section": "portfolio",
+   "check": "figure",
+   "item": "DTS contribution of Consumer sector",
+   "passed": true,
+   "detail": "161.040027 years_bp, call_1kF5Jwqj5xuZZi7l47B1Ct50"
+  },
+  {
+   "section": "portfolio",
+   "check": "figure",
+   "item": "DTS contribution of Financials sector",
+   "passed": true,
+   "detail": "139.861474 years_bp, call_1kF5Jwqj5xuZZi7l47B1Ct50"
+  },
+  {
+   "section": "portfolio",
+   "check": "figure",
+   "item": "DTS contribution of Materials sector",
+   "passed": true,
+   "detail": "126.173479 years_bp, call_1kF5Jwqj5xuZZi7l47B1Ct50"
+  },
+  {
+   "section": "portfolio",
+   "check": "figure",
+   "item": "DTS contribution of Telecom sector",
+   "passed": true,
+   "detail": "124.05472 years_bp, call_1kF5Jwqj5xuZZi7l47B1Ct50"
+  },
+  {
+   "section": "portfolio",
+   "check": "figure",
+   "item": "DTS contribution of Transportation sector",
+   "passed": true,
+   "detail": "90.932744 years_bp, call_1kF5Jwqj5xuZZi7l47B1Ct50"
+  },
+  {
+   "section": "portfolio",
+   "check": "figure",
+   "item": "DTS contribution of Energy sector",
+   "passed": true,
+   "detail": "81.104019 years_bp, call_1kF5Jwqj5xuZZi7l47B1Ct50"
+  },
+  {
+   "section": "portfolio",
+   "check": "figure",
+   "item": "DTS contribution of Utilities sector",
+   "passed": true,
+   "detail": "68.941793 years_bp, call_1kF5Jwqj5xuZZi7l47B1Ct50"
+  },
+  {
+   "section": "portfolio",
+   "check": "figure",
+   "item": "DTS contribution of Technology sector",
+   "passed": true,
+   "detail": "53.722565 years_bp, call_1kF5Jwqj5xuZZi7l47B1Ct50"
+  },
+  {
+   "section": "portfolio",
+   "check": "figure",
+   "item": "DTS contribution of Health Care sector",
+   "passed": true,
+   "detail": "50.517977 years_bp, call_1kF5Jwqj5xuZZi7l47B1Ct50"
+  },
+  {
+   "section": "documents",
+   "check": "citations",
+   "item": "text",
+   "passed": false,
+   "detail": "no section cited as [Section 4.10]"
+  },
+  {
+   "section": "documents",
+   "check": "status",
+   "item": "Leverage Ratio threshold",
+   "passed": true,
+   "detail": "brief confirmed; table confirmed"
+  },
+  {
+   "section": "documents",
+   "check": "status",
+   "item": "Restricted Payments ratio threshold",
+   "passed": true,
+   "detail": "brief not confirmed; table not confirmed"
+  },
+  {
+   "section": "documents",
+   "check": "status",
+   "item": "Restricted Payments Cumulative EBITDA percent",
+   "passed": true,
+   "detail": "brief not confirmed; table not confirmed"
+  },
+  {
+   "section": "documents",
+   "check": "status",
+   "item": "Restricted Payments Net Proceeds percent",
+   "passed": true,
+   "detail": "brief not confirmed; table not confirmed"
+  },
+  {
+   "section": "documents",
+   "check": "status",
+   "item": "Asset Sale threshold",
+   "passed": true,
+   "detail": "brief not confirmed; table not confirmed"
+  },
+  {
+   "section": "documents",
+   "check": "status",
+   "item": "Excess Proceeds Offer threshold",
+   "passed": true,
+   "detail": "brief confirmed; table confirmed"
+  },
+  {
+   "section": "documents",
+   "check": "status",
+   "item": "Change of Control Purchase Price",
+   "passed": true,
+   "detail": "brief not confirmed; table not confirmed"
+  },
+  {
+   "section": "documents",
+   "check": "status",
+   "item": "Affiliate Transactions Board Resolution threshold",
+   "passed": true,
+   "detail": "brief confirmed; table confirmed"
+  },
+  {
+   "section": "documents",
+   "check": "status",
+   "item": "Affiliate Transactions written opinion threshold",
+   "passed": true,
+   "detail": "brief confirmed; table confirmed"
+  },
+  {
+   "section": "documents",
+   "check": "status",
+   "item": "covenant_suspension",
+   "passed": false,
+   "detail": "not named"
+  },
+  {
+   "section": "macro",
+   "check": "separation",
+   "item": "synthetic names",
+   "passed": true,
+   "detail": "none"
+  },
+  {
+   "section": "documents",
+   "check": "separation",
+   "item": "synthetic names",
+   "passed": true,
+   "detail": "none"
+  },
+  {
+   "section": "portfolio",
+   "check": "separation",
+   "item": "real names",
+   "passed": true,
+   "detail": "none"
+  },
+  {
+   "section": "portfolio",
+   "check": "separation",
+   "item": "bonds named",
+   "passed": true,
+   "detail": "none"
+  },
+  {
+   "section": "macro",
+   "check": "opinion",
+   "item": "text",
+   "passed": true,
+   "detail": "none"
+  },
+  {
+   "section": "documents",
+   "check": "opinion",
+   "item": "text",
+   "passed": true,
+   "detail": "none"
+  },
+  {
+   "section": "portfolio",
+   "check": "opinion",
+   "item": "text",
+   "passed": true,
+   "detail": "none"
+  }
+ ],
+ "run_line": "Model gpt-4.1-mini-2025-04-14, temperature 0, seed 42; 21 requests, 39,691 prompt and 6,154 completion tokens; saved run recorded 2026-10-11; replayed (no key loaded).",
+ "exchanges": [
+  {
+   "key": "d1e3fa8e950b19a7444ea7776b9f34c8ac3cdef0ea8d18f114fe53b94c63662c",
+   "sha256": "950a9f487621a78e9169734dc46b072361f637a969f3633bb31ec672bdd52f66"
+  },
+  {
+   "key": "b297278debd5b74b56986e0161b520fbbb2e828fd64b2761a32589e5f9e1d434",
+   "sha256": "a22107a34625ba616ae974c921f4e9304d24a655b3bc4a565356ca7de9225f13"
+  },
+  {
+   "key": "bbd4ceebe04e4c2dd7d9717aeb2660d1c084fa30f2bcdb7f2f91acaa4b77d236",
+   "sha256": "9e59428ad00c557e644d4692b710a86b945cda61e363f9338d4ce2178c49acc4"
+  },
+  {
+   "key": "d2283c37e33b85a93881c7e5154f27be854553f470d9d02a6634b0d6b78f6305",
+   "sha256": "1a6bc77f950175c612833fcb8c57a06642ec8b1896afc8bd3c7d50266dc7dd97"
+  },
+  {
+   "key": "add803211df1c05ad30e024da2c74acf23ce7b80d899355de1bdbc8422e03f83",
+   "sha256": "1c613d2d969ef282ef21f2edd11262921e3421afc6f1eeec0982ccdf1043a498"
+  },
+  {
+   "key": "cfcea327d49a122cd51a2c932585da6e7cb673227aa02a520b6aeb368ce8cac2",
+   "sha256": "5832ccb6bab4fa3efaa2e8533fcbf2353003ab8f6fbb3227b5cc61a3ef28e67d"
+  },
+  {
+   "key": "4938962140fa72a95e96cc416879c6a1319026549dbc1f870b7819ef8b4d32a0",
+   "sha256": "fc475c414ce7ae85bd207179418b62664d463342f14bf4d3ae1ef62d9ce9f203"
+  },
+  {
+   "key": "90dc8447bef96c97e1eca0ee8122f78404c4bc1bf8dc4d3ea45842336a9d8f88",
+   "sha256": "691c0c66a3a751c9f62e20c7f371eeff5933fee940c5dc3cf7f218972b4fc35f"
+  },
+  {
+   "key": "01b1c3353b91537c73425e9cc932d0a400da037c1de2187f223737db9243ac2b",
+   "sha256": "fef55baa5013bb1e04a127eac213b8234f548f9cdc322b4068a3284d53772e89"
+  },
+  {
+   "key": "17e2efe0c3d114eac74ea5b49061cf406eef0c3749937921c4cdb801ce321dc7",
+   "sha256": "ebb1f6711c8430204a97bc56c891fb405476c3d5c2addc4adfefd4e620a68040"
+  },
+  {
+   "key": "58f52cfef95cb16109bd0a66490a3802c3846c367b72230523ce6fe85cc6d661",
+   "sha256": "0de8b8a1eb607eec3ceca5968583f8ba3a531807d8be1966f6d1d0c4de89cc5c"
+  },
+  {
+   "key": "f46a1f438ed7d9d90778d1e13cd8c26c1593ceb9d59ccddb85ea1dc40d5750f4",
+   "sha256": "cfbebc746938f1f18e5335c5aef6adf2e9a23ae31456c54dcbc99b6eaa098df4"
+  },
+  {
+   "key": "c5688e1d41d0e97ff84b1251393c5be9388baa1a5d26eb331b2ea6b70b48f47b",
+   "sha256": "4c2e33e145abf7c716cae9aca0ed4cad5bbbb02945f7f79a535947622d1e54ec"
+  },
+  {
+   "key": "39e47bf09b85fe3556584f48cb131cc819b14b7dc790a4a22e3745a9e1ef1678",
+   "sha256": "63e226b195e0bd7ae83c04f2cdf6d11206d755c500b1130bd1a099bef2917c6b"
+  },
+  {
+   "key": "3fa918e6e66cbca2560b217e193f5ae93661b9c47dcd79197ec346966f3877d9",
+   "sha256": "ceb774560b99f04d0c9496bc47d58e22c103deed8fde3a3dfcb3b99d8e0c4a13"
+  },
+  {
+   "key": "3992f225072434593e9cc3f3ccb18eddf89f163e1f4ebf959cd3b6284cceb428",
+   "sha256": "d076c9811e865f761cc04e01617c03724841035285a951bc232e516a1dfbf209"
+  },
+  {
+   "key": "7655d15d1f8316f4855b2ce8d8dde00cb0384d7a47fc4b7ed6419afc83580c14",
+   "sha256": "6522bdb03d802e00de8464cb26bb07e023d7e263a4ef5e02c7b3c5c743849ee7"
+  },
+  {
+   "key": "31981a4d76631e7dd0aec7d89136a274a070b6bcab8c02df8b232d489cb95a71",
+   "sha256": "8b0cca58df5d2b010d072e4f9f7ed07f48c1f4d82fd4c14a41b0d27f99b153ef"
+  },
+  {
+   "key": "050db25e5fef0a121030e8dbf31bf2ce860c0dcbcaf407b6b480c00025e236ed",
+   "sha256": "04d4819dcdd46c17408ff2360d4fdaf39e04db79e6f37eb1d21232db7ddec195"
+  },
+  {
+   "key": "f00827b3819d9912a76b398f81fb842b7ab94763bfd4bb127f9294d8b973c720",
+   "sha256": "b0c8722008350ea113a890edf1390b44bf9e1f68cfda95d79a2cf4aec243f771"
+  },
+  {
+   "key": "7e50cc0f26dbf9eb6172acac4565bc00c69efc8afc8df9293399458a04038f76",
+   "sha256": "4150f08287be0b62be57b467d5fa6da5b8a399471f6ae87c4a1082f3c5bc8c1a"
+  }
+ ],
+ "answers": {
+  "By how many basis points did the 10 Yr Treasury par yield change between the date of the last FOMC post-meeting statement in the statements file and 2026-10-02?": "The 10 Yr Treasury par yield increased by 27 basis points between the date of the last FOMC post-meeting statement in 2026 (September 16) and October 2, 2026.",
+  "As of 2026-09-30, what is the position DV01 in dollars of the whole synthetic book?": "As of 2026-09-30, the position DV01 in dollars of the whole synthetic book is 306,996.49 USD.",
+  "As of 2026-09-30, read the synthetic desk memo and state the market value in dollars of the largest sector of the synthetic book.": "As of 2026-09-30, the largest sector of the synthetic book by market value is Materials, with a market value of $71,701,617.50."
+ },
+ "disclaimer": "This course is educational content created in a personal capacity. Nothing here is investment advice or a recommendation to buy or sell any security. All portfolio data is synthetic.",
+ "guard": {
+  "words": [
+   "will",
+   "expect",
+   "expects",
+   "should",
+   "forecast",
+   "forecasts",
+   "cheap",
+   "rich",
+   "attractive",
+   "signal",
+   "signals",
+   "buy",
+   "sell",
+   "approve",
+   "decline",
+   "lend",
+   "invest",
+   "loose",
+   "looser",
+   "tight",
+   "tighter",
+   "weak",
+   "weaker",
+   "strong",
+   "stronger",
+   "protective",
+   "aggressive",
+   "covenant-lite",
+   "cov-lite",
+   "borrower-friendly",
+   "investor-friendly",
+   "favourable",
+   "favorable",
+   "better",
+   "worse",
+   "riskier",
+   "safer"
+  ],
+  "negation": "\\b(?:no|not|never|nothing|neither|nor|without|cannot)\\b|n't\\b",
+  "ordering": "\\b(?:recommend\\w*|rank\\w*|best|worst|prefer\\w*)\\b",
+  "holding": "\\b(?:holds?|holding|holdings|owns?|book|portfolio)\\b",
+  "real_issuers": [
+   "Boyd",
+   "Levi",
+   "Lamar",
+   "Equitable"
+  ],
+  "refusal": "REFUSED: this course asks only what the document says"
+ }
+}
